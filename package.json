@@ -1,0 +1,10 @@
+{
+  "name": "aura-motion-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/app.js",
+    "serve": "python -m http.server 5286 --bind 127.0.0.1"
+  }
+}

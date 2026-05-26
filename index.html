@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff6fb">
+    <title>Aura Motion Kit</title>
+    <meta name="description" content="A soft motion design kit for expressive mobile-first web interfaces.">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <canvas class="particle-field" id="particleField" aria-hidden="true"></canvas>
+    <div class="aura aura-blue"></div>
+    <div class="aura aura-pink"></div>
+    <div class="aura aura-gold"></div>
+    <div class="grid-layer"></div>
+    <div class="motion-tags" aria-hidden="true">
+      <b>sound</b>
+      <b>motion</b>
+      <b>soft ui</b>
+      <b>mobile</b>
+      <b>tokens</b>
+      <b>glow</b>
+    </div>
+
+    <button class="sound-toggle" id="soundToggle" type="button" aria-label="Toggle sound">
+      <span>sound</span>
+    </button>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow reveal">Aura Motion Kit</p>
+        <h1 class="reveal">Interfaces that feel alive.</h1>
+        <p class="hero-copy reveal">A reusable style system for colorful product screens, personal tools, playful forms and mobile-first web apps.</p>
+        <div class="hero-actions reveal">
+          <button class="primary-action magnetic" type="button" data-sound="chime">Try the feel<span></span></button>
+          <a class="ghost-action" href="#tokens">View tokens</a>
+        </div>
+      </section>
+
+      <section class="showcase">
+        <article class="glass-card reveal tilt-card">
+          <span class="card-tag">01</span>
+          <h2>Pastel aura</h2>
+          <p>Large blurred color fields and a light grid create depth without looking like a generic template.</p>
+        </article>
+        <article class="glass-card reveal tilt-card">
+          <span class="card-tag">02</span>
+          <h2>Tap feedback</h2>
+          <p>Buttons respond with tiny sound cues, motion and shadow changes so the interface feels touchable.</p>
+        </article>
+        <article class="glass-card reveal tilt-card">
+          <span class="card-tag">03</span>
+          <h2>Floating language</h2>
+          <p>Badges drift around the viewport to give the page a playful identity without blocking content.</p>
+        </article>
+      </section>
+
+      <section class="lab-panel reveal">
+        <div>
+          <p class="eyebrow">Interaction lab</p>
+          <h2>Press, hover, copy, repeat.</h2>
+          <p>Every element is built as a pattern that can move into another project without dragging personal content with it.</p>
+        </div>
+        <div class="button-grid">
+          <button class="primary-action" type="button" data-sound="pop">Pop</button>
+          <button class="ghost-action" type="button" data-sound="tick">Tick</button>
+          <button class="primary-action warm" type="button" data-sound="swoosh">Swoosh</button>
+          <button class="ghost-action violet" type="button" data-sound="stamp">Stamp</button>
+        </div>
+      </section>
+
+      <section class="tokens reveal" id="tokens">
+        <div class="token-copy">
+          <p class="eyebrow">Design tokens</p>
+          <h2>Copy the vibe.</h2>
+          <p>Use these values as a starting point for new apps, quizzes, dashboards, landing pages or tools.</p>
+        </div>
+        <pre class="code-card"><code id="tokenCode">--ink: #1d1824;
+--paper: #fff8fd;
+--pink: #ff8bcf;
+--blue: #83d7ff;
+--violet: #9a7cff;
+--yellow: #ffe875;
+--radius-card: 28px;
+--shadow-hard: 7px 9px 0 #1d1824;</code></pre>
+        <button class="primary-action copy-button" id="copyTokens" type="button">Copy tokens</button>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
