@@ -1,38 +1,15 @@
-<!-- portfolio:start -->
 <p align="center">
-  <img src="assets/readme-hero.svg" alt="Aura Motion Kit banner" width="100%" />
+  <img src="assets/readme-hero.svg" alt="Aura Motion Design System Architectural Banner" width="100%" />
 </p>
 
-<h1 align="center">Aura Motion Kit</h1>
-
-<p align="center"><strong>A soft interaction kit for pastel motion, tactile buttons, floating tags, and tiny sounds.</strong></p>
-
 <p align="center">
-<img alt="focus: UI feel" src="https://img.shields.io/badge/focus-UI%20feel-ff8fc7?style=for-the-badge&labelColor=231b2e" />
-  <img alt="assets: motion tokens" src="https://img.shields.io/badge/assets-motion%20tokens-ff8fc7?style=for-the-badge&labelColor=231b2e" />
-  <img alt="mode: offline" src="https://img.shields.io/badge/mode-offline-ff8fc7?style=for-the-badge&labelColor=231b2e" />
+  <img src="https://img.shields.io/badge/DOMAIN-DESIGN%20SYSTEM-0F172A?style=flat-square&labelColor=05080F&color=0284C7" alt="DOMAIN: DESIGN SYSTEM" />
+  <img src="https://img.shields.io/badge/PRIMITIVES-MICRO-INTERACTIONS-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="PRIMITIVES: MICRO-INTERACTIONS" />
+  <img src="https://img.shields.io/badge/A11Y-REDUCED-MOTION%20SAFE-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="A11Y: REDUCED-MOTION SAFE" />
+  <img src="https://img.shields.io/badge/STACK-CSS3%20%2B%20JS-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="STACK: CSS3 + JS" />
 </p>
-
-## Aura Signature
-
-This one is the gentle visual language: soft gradients, friendly motion, little sound feedback, and mobile-first interface pieces.
-
-## Use It For
-
-Starting points for personal tools, playful forms, onboarding screens, and warm AI-adjacent interfaces.
-
-## Run
-
-Open `index.html` or run `npm run serve`.
-
-## Portfolio Note
-
-This repository has its own visual identity inside the portfolio. The goal is that every project feels like a different product, not another copy of the same template.
-<!-- portfolio:end -->
 
 ---
-
-## Existing Project Notes
 
 # Aura Motion Kit
 
